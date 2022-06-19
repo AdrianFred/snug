@@ -5,44 +5,53 @@
   justify-content: center;
 }
 
+p {
+  margin: 0;
+}
+
+p + p {
+  margin-top: 1em;
+}
+
 .product img {
   width: 100%;
   max-width: 300px;
 }
 
 section {
-  font-family: poppins-regular, sans-serif;
+  font-family: poppins, poppins-regular, sans-serif;
 }
 
 .product-title {
   font-family: tomarik-brush, sans-serif;
+  font-weight: normal;
   font-size: 32px;
-  margin-bottom: 20px;
+  margin: 0 0 20px;
   color: #62258a;
 }
 
 .price {
-  font-family: poppins-medium, sans-serif;
+  font-family: poppins, poppins-medium, sans-serif;
 }
 
 .feature {
   color: #62258a;
   font-family: tomarik-brush, sans-serif;
+  font-weight: normal;
 }
 
 .button {
   background-color: #62258a;
-  width: 140px;
-  height: 30px;
-  display: flex;
+  padding: 10px 20px;
+  display: inline-flex;
   justify-content: center;
   align-items: center;
   border-radius: 10px;
   cursor: pointer;
   text-decoration: none;
   color: #fff;
-  font-family: poppins-regular, sans-serif;
-  font-weight: bold;
+  font-family: poppins, poppins-regular, sans-serif;
+  font-weight: 500;
   font-size: 14px;
 }
 
@@ -50,18 +59,16 @@ section {
   color: #999;
 }
 
-.selector {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+.selector select {
+  width: 180px;
+  padding: 10px 15px;
+  font-size: 14px;
+  display: block;
+  border-radius: 10px;
+  border: 1px solid #999;
+  margin-bottom: 15px;
 }
 
-.selector select {
-  width: 140px;
-  height: 30px;
-  border-radius: 5px;
-  border-color: #999;
-}
 .text-boxes {
   max-width: 600px;
 }

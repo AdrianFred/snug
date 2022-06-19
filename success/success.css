@@ -1,5 +1,5 @@
 section {
-  font-family: poppins-regular, sans-serif;
+  font-family: poppins, poppins-regular, sans-serif;
 }
 
 .nav-title a {
@@ -33,14 +33,27 @@ section {
   margin: 0 auto;
 }
 
+.order h2 {
+  font-family: poppins;
+  font-weight: 500;
+  font-size: 15px;
+  color: #000;
+}
+
+.order .price {
+  font-family: tomarik-brush;
+  font-weight: normal;
+  color: #62258a;
+}
+
 .order img {
   width: 150px;
 }
 
 .button {
   background-color: #62258a;
-  width: 140px;
-  height: 30px;
+  width: 180px;
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -48,9 +61,9 @@ section {
   cursor: pointer;
   text-decoration: none;
   color: #fff;
-  font-family: poppins-regular, sans-serif;
-  font-weight: bold;
-  font-size: 12px;
+  font-family: poppins, poppins-regular, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
   margin: 20px auto;
 }
 
