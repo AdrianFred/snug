@@ -4,25 +4,32 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/index.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://use.typekit.net/kxe8iaz.css" />
     <script src="https://kit.fontawesome.com/13df25db0a.js" crossorigin="anonymous"></script>
     <title>Snug</title>
   </head>
   <body>
-    <nav>
-      <div class="nav-links">
-        <a href="#">ABOUT US</a>
-        <a href="#">CONTACT US</a>
-      </div>
+    <header>
+      <!-- <div class="nav-links"></div> -->
       <div class="nav-title">
         <p>Snug</p>
       </div>
-      <div class="nav-icons">
-        <i class="fa-solid fa-user"></i>
-        <i class="fa-solid fa-basket-shopping"></i>
+      <div class="burger nav-icons">
+        <a tabindex="1" id="nav-button" href="#">
+          <i class="fa-solid fa-bars"></i>
+          <i class="fa-solid fa-times"></i>
+        </a>
+        <ul>
+          <li><a href="#">ABOUT US</a></li>
+          <li><a href="#">CONTACT US</a></li>
+        </ul>
       </div>
-    </nav>
+      <div class="nav-icons">
+        <a href="#"> <i class="fa-solid fa-user"></i></a>
+        <a href="#"> <i class="fa-solid fa-basket-shopping"></i></a>
+      </div>
+    </header>
     <section>
       <div class="pink-container">
         <div class="container-img">
@@ -40,28 +47,37 @@
           <a href="#">
             <div class="carriers-product">
               <img src="/images/smart.jpg" alt="Black carrier" />
-              <p class="carriers-text">Gaia Organics Baby Carrier Wrap - Graphite</p>
+              <p class="carriers-text">Gaia Organics Baby Carrier <br />Wrap - Graphite</p>
               <p class="carriers-price">Kr 699</p>
             </div>
           </a>
           <a href="#">
             <div class="carriers-product">
               <img src="/images/smart (1).jpg" alt="Leopard carrier" />
-              <p class="carriers-text">Gaia Organics Baby Carrier Wrap - Leopard</p>
+              <p class="carriers-text">
+                Gaia Organics Baby Carrier <br />
+                Wrap - Leopard
+              </p>
               <p class="carriers-price">Kr 599</p>
             </div>
           </a>
           <a href="#">
             <div class="carriers-product">
               <img src="/images/R (5).png" alt="Yellow carrier" />
-              <p class="carriers-text">Baby Carrier One – Limited edition 2018</p>
+              <p class="carriers-text">
+                Baby Carrier One <br />
+                – Limited edition 2018
+              </p>
               <p class="carriers-price">Kr 599</p>
             </div>
           </a>
           <a href="#">
             <div class="carriers-product">
               <img src="/images/image_1_426381.jpg" alt="Silver carrier" />
-              <p class="carriers-text">Babybjörn Baby Harmony Carrier - Silver</p>
+              <p class="carriers-text">
+                Babybjörn Baby Harmony Carrier <br />
+                - Silver
+              </p>
               <p class="carriers-price">Kr 599</p>
             </div>
           </a>
@@ -122,10 +138,12 @@
           <div><img src="/images/location-pin.svg" alt="Location pin" /></div>
 
           <div>
-            <p style="font-weight: bold">Snug</p>
-            <p>Gjedda5</p>
-            <p>0520 Kristiansand</p>
-            <p>Norway</p>
+            <p>
+              <strong>Snug</strong><br />
+              Gjedda 5<br />
+              0520 Kristiansand<br />
+              Norway
+            </p>
           </div>
         </div>
         <div class="phone">
