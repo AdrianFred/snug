@@ -1,0 +1,61 @@
+.nav-title a {
+  text-decoration: 0;
+  color: #000;
+}
+
+.product {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.form-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-page h2 {
+  font-family: tomarik-brush, sans-serif;
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #62258a;
+}
+
+.formselect {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form-page input {
+  margin-top: 7px;
+  min-width: 300px;
+  min-height: 25px;
+  border-radius: 7px;
+  padding-left: 7px;
+  border: 1px solid #aaa;
+  font-size: 18px;
+}
+
+.button {
+  background-color: #62258a;
+  width: 140px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-family: poppins-regular, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.button-container {
+  margin: 10px auto;
+}

@@ -22,15 +22,21 @@ p {
   line-height: 1.6em;
 }
 
+.nav-title a {
+  text-decoration: 0;
+  color: #000;
+}
+
 /* Navbar */
 
 header {
   display: flex;
-  justify-content: space-around;
-  max-width: 1800px;
+  justify-content: space-between;
+  max-width: 1400px;
   width: 90%;
   margin: 0 auto;
   padding: 20px 0;
+  align-items: center;
 }
 
 .burger ul {
@@ -56,19 +62,16 @@ header {
   font-size: 56px;
 }
 
-.burger {
-  order: -1;
-}
-
 .nav-title p {
   margin: 0;
 }
 
 .nav-icons {
   display: flex;
+  flex: 1 1 20%;
   gap: 25px;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-end;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -79,6 +82,12 @@ header {
 
 #nav-button {
   display: none;
+}
+
+.burger {
+  order: -1;
+  display: flex;
+  justify-content: flex-start;
 }
 
 /* body */
@@ -184,7 +193,7 @@ footer {
   max-width: 1400px;
   margin: 0 auto;
   padding: 40px 0;
-  width: 90%;
+  width: 80%;
   justify-content: center;
 }
 
@@ -233,6 +242,7 @@ footer {
 @media screen and (max-width: 650px) {
   .burger {
     order: 0;
+    justify-content: flex-end;
   }
 
   .burger ul {

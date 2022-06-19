@@ -1,0 +1,66 @@
+section {
+  font-family: poppins-regular, sans-serif;
+}
+
+.nav-title a {
+  text-decoration: 0;
+  color: #000;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.title h2 {
+  font-family: tomarik-brush, sans-serif;
+  color: #62258a;
+  margin: 20px 0 10px;
+}
+
+.title p {
+  margin: 0 0 20px;
+  font-size: 12px;
+}
+
+.order {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #999;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.order img {
+  width: 150px;
+}
+
+.button {
+  background-color: #62258a;
+  width: 140px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-family: poppins-regular, sans-serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 20px auto;
+}
+
+@media screen and (max-width: 550px) {
+  .order {
+    width: 90%;
+    flex-direction: column;
+  }
+
+  .order p {
+    margin: 0 10px;
+  }
+}
