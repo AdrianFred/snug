@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  border-top: 13px #f9e0bd solid;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  flex-grow: 2;
+}
+
+/* Navbar */
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #000;
+  font-family: poppins-regular, sans-serif;
+  font-size: 14px;
+}
+
+.nav-links a:hover {
+  text-decoration: 5px underline;
+  text-decoration-color: #f9e0bd;
+}
+
+.nav-title {
+  font-family: tomarik-extrovert, sans-serif;
+  font-size: 56px;
+}
+
+.nav-title p {
+  margin: 0;
+}
+
+.nav-icons {
+  display: flex;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+/* body */
+
+.pink-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  height: 300px;
+  background-color: #f0e0fb;
+  margin: 50px auto;
+  border-radius: 31px;
+}
+
+.container-img img {
+  width: 500px;
+}
+
+.pink-title {
+  font-family: tomarik-brush, sans-serif;
+  font-size: 30px;
+}
+
+.pink-text {
+  font-family: poppins-regular, sans-serif;
+  font-size: 15px;
+  padding-right: 30%;
+}
+
+.pink-button a {
+  background-color: #62258a;
+  width: 140px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  font-family: poppins-regular, sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Carriers and toys*/
+
+.carriers h2 {
+  font-family: tomarik-brush, sans-serif;
+  font-size: 30px;
+
+  text-align: center;
+  margin: 100px 0 50px;
+}
+.carriers-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+  justify-content: center;
+}
+
+.carriers-cards a {
+  text-decoration: none;
+  color: #000;
+}
+
+.carriers-product img {
+  width: 175px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.carriers-product {
+  width: 200px;
+}
+
+.carriers-text {
+  font-family: poppins-medium, sans-serif;
+  font-size: 15px;
+  margin-top: 25px;
+}
+
+.carriers-price {
+  color: #62258a;
+  font-family: tomarik-brush, sans-serif;
+  font-size: 22px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #fff1dc;
+  border-top: 13px solid #f9e0bd;
+}
+
+.footer-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.location img,
+.phone img {
+  width: 20px;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding-bottom: 20px;
+}
+
+.location p {
+  margin: 0;
+  font-family: poppins-regular, sans-serif;
+  font-size: 15px;
+}
+
+.phone {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.phone a {
+  font-family: poppins-regular, sans-serif;
+  font-size: 15px;
+  text-decoration: none;
+  color: #000;
+}
